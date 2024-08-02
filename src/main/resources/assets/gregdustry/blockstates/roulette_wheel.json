@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "the_diffy_experience:custom/roulette_wheel_particle"
+    }
+  }
+}

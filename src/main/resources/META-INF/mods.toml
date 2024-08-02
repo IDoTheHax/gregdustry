@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="gregdustry"
+version="0.69.5"
+displayName="The Diffy Experience - GregTechified"
+displayURL="https://www.youtube.com/@DiffyMC"
+logoFile="logo.png"
+credits="Diffy"
+authors="IDoTheHax"
+description="unfortunately there doesn't appear to be a license that would prevent you from legally uninstalling this mod after playing it. also subscribe to diffymc right now or be eaten by a cow"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.gregdustry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.gregdustry]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_diffy_experience:block/corrupted_block",
+    "up": "the_diffy_experience:block/corrupted_block",
+    "north": "the_diffy_experience:block/corrupted_block",
+    "east": "the_diffy_experience:block/corrupted_block",
+    "south": "the_diffy_experience:block/corrupted_block",
+    "west": "the_diffy_experience:block/corrupted_block",
+    "particle": "the_diffy_experience:block/corrupted_block"
+  },
+  "render_type": "solid"
+}

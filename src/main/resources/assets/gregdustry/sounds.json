@@ -1,0 +1,452 @@
+{
+  "greghit": {
+    "subtitle": "subtitles.greghit",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:hit2",
+        "stream": false
+      }
+    ]
+  },
+  "gregliving": {
+    "subtitle": "subtitles.gregliving",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:random3",
+        "stream": false
+      }
+    ]
+  },
+  "gregdeath": {
+    "subtitle": "subtitles.gregdeath",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:thingdeath2",
+        "stream": false
+      }
+    ]
+  },
+  "gregwalk": {
+    "subtitle": "subtitles.gregwalk",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:walk2",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscare1": {
+    "subtitle": "subtitles.jumpscare1",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_sound",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscareambient": {
+    "subtitle": "subtitles.jumpscareambient",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_sound_darker",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscareambient2": {
+    "subtitle": "subtitles.jumpscareambient2",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_ambient_2",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscareambient3": {
+    "subtitle": "subtitles.jumpscareambient3",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_ambient_3",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscareambient4": {
+    "subtitle": "subtitles.jumpscareambient4",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_ambient_4",
+        "stream": false
+      }
+    ]
+  },
+  "gregarrival": {
+    "subtitle": "subtitles.gregarrival",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_ambient_5",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscareforstart": {
+    "subtitle": "subtitles.jumpscareforstart",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_sound_for_start",
+        "stream": false
+      }
+    ]
+  },
+  "riser": {
+    "subtitle": "subtitles.riser",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:riser",
+        "stream": false
+      }
+    ]
+  },
+  "endingmusic": {
+    "subtitle": "subtitles.endingmusic",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:ending_music",
+        "stream": false
+      }
+    ]
+  },
+  "riserlong": {
+    "subtitle": "subtitles.riserlong",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:riser_long_fix",
+        "stream": false
+      }
+    ]
+  },
+  "bregvoices": {
+    "subtitle": "subtitles.bregvoices",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:breg_voices_in_head",
+        "stream": false
+      }
+    ]
+  },
+  "bregdisappear": {
+    "subtitle": "subtitles.bregdisappear",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:breg_jumpscare_1",
+        "stream": false
+      }
+    ]
+  },
+  "bregsound1": {
+    "subtitle": "subtitles.bregsound1",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:breg_sound_1",
+        "stream": false
+      }
+    ]
+  },
+  "funfactswithbreg": {
+    "subtitle": "subtitles.funfactswithbreg",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:fun_facts_with_breg",
+        "stream": false
+      }
+    ]
+  },
+  "endingmusiclong": {
+    "subtitle": "subtitles.endingmusiclong",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:ending_music_long",
+        "stream": false
+      }
+    ]
+  },
+  "funfactswithbreg2": {
+    "subtitle": "subtitles.funfactswithbreg2",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:fun_facts_2",
+        "stream": false
+      }
+    ]
+  },
+  "legwalk": {
+    "subtitle": "subtitles.legwalk",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:legwalk",
+        "stream": false
+      }
+    ]
+  },
+  "leghit": {
+    "subtitle": "subtitles.leghit",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:leg_hit",
+        "stream": false
+      }
+    ]
+  },
+  "legliving": {
+    "subtitle": "subtitles.legliving",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:leg_living_sound",
+        "stream": false
+      }
+    ]
+  },
+  "leghitfix": {
+    "subtitle": "subtitles.leghitfix",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:leg_hit_fix",
+        "stream": false
+      }
+    ]
+  },
+  "legdeath": {
+    "subtitle": "subtitles.legdeath",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:leg_death",
+        "stream": false
+      }
+    ]
+  },
+  "leglivingfix": {
+    "subtitle": "subtitles.leglivingfix",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:leg_living_fix",
+        "stream": false
+      }
+    ]
+  },
+  "legliving2": {
+    "subtitle": "subtitles.legliving2",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:leg_living_2",
+        "stream": false
+      }
+    ]
+  },
+  "cregliving": {
+    "subtitle": "subtitles.cregliving",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:creg_sound_3",
+        "stream": false
+      }
+    ]
+  },
+  "helicopter": {
+    "subtitle": "subtitles.helicopter",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:helicopter",
+        "stream": false
+      }
+    ]
+  },
+  "helicopterlong": {
+    "subtitle": "subtitles.helicopterlong",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:helicopterlong",
+        "stream": false
+      }
+    ]
+  },
+  "scarystring1": {
+    "subtitle": "subtitles.scarystring1",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_string_1",
+        "stream": false
+      }
+    ]
+  },
+  "pregbomb": {
+    "subtitle": "subtitles.pregbomb",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:preg_bomb",
+        "stream": false
+      }
+    ]
+  },
+  "cregliving2": {
+    "subtitle": "subtitles.cregliving2",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:creg",
+        "stream": false
+      }
+    ]
+  },
+  "stringjumpscare": {
+    "subtitle": "subtitles.stringjumpscare",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:string_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "stringjumpscarestereo": {
+    "subtitle": "subtitles.stringjumpscarestereo",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:string_jumpscare_stereo",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscare2": {
+    "subtitle": "subtitles.jumpscare2",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:scary_sound",
+        "stream": false
+      }
+    ]
+  },
+  "endingmusicfreg": {
+    "subtitle": "subtitles.endingmusicfreg",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:ending_music_freg",
+        "stream": false
+      }
+    ]
+  },
+  "gauntlet_equip": {
+    "subtitle": "subtitles.gauntlet_equip",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:gauntlet_equip",
+        "stream": false
+      }
+    ]
+  },
+  "gambling_victory_fanfare_1": {
+    "subtitle": "subtitles.gambling_victory_fanfare_1",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:gambling_victory_fanfare_2_louder_fix1",
+        "stream": false
+      }
+    ]
+  },
+  "gambling_alarm": {
+    "subtitle": "subtitles.gambling_alarm",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:gambling_alarm",
+        "stream": false
+      }
+    ]
+  },
+  "gambling_victory_fanfare_1_higher_end": {
+    "subtitle": "subtitles.gambling_victory_fanfare_1_higher_end",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:gambling_victory_fanfare_higher_end",
+        "stream": false
+      }
+    ]
+  },
+  "roulette_wheel_start": {
+    "subtitle": "subtitles.roulette_wheel_start",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulette_wheel_start",
+        "stream": false
+      }
+    ]
+  },
+  "roulette_win_1_stereo": {
+    "subtitle": "subtitles.roulette_win_1_stereo",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulette_win_1_stereo",
+        "stream": false
+      }
+    ]
+  },
+  "roulette_win_1_mono": {
+    "subtitle": "subtitles.roulette_win_1_mono",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulette_win_1_mono",
+        "stream": false
+      }
+    ]
+  },
+  "roulette_loss": {
+    "subtitle": "subtitles.roulette_loss",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulette_loss",
+        "stream": false
+      }
+    ]
+  },
+  "roulette_loss_2": {
+    "subtitle": "subtitles.roulette_loss_2",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulette_loss_2",
+        "stream": false
+      }
+    ]
+  },
+  "roulegg_living": {
+    "subtitle": "subtitles.roulegg_living",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulegg_living",
+        "stream": false
+      }
+    ]
+  },
+  "roulette_win_stereo": {
+    "subtitle": "subtitles.roulette_win_stereo",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulette_win_stereo",
+        "stream": false
+      }
+    ]
+  },
+  "roulegg_ending": {
+    "subtitle": "subtitles.roulegg_ending",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulegg_ending",
+        "stream": false
+      }
+    ]
+  },
+  "roulegg_ending_var2": {
+    "subtitle": "subtitles.roulegg_ending_var2",
+    "sounds": [
+      {
+        "name": "the_diffy_experience:roulegg_ending_var2",
+        "stream": false
+      }
+    ]
+  }
+}

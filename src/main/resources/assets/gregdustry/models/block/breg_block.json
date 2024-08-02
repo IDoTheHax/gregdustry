@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_diffy_experience:block/breg_block",
+    "particle": "the_diffy_experience:block/breg_block"
+  },
+  "render_type": "solid"
+}

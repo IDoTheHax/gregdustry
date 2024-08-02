@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "the_diffy_experience:block/red_carpet",
+    "bottom": "the_diffy_experience:block/red_carpet",
+    "top": "the_diffy_experience:block/red_carpet",
+    "side": "the_diffy_experience:block/red_carpet"
+  },
+  "render_type": "solid"
+}

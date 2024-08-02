@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_diffy_experience:block/roulegg_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_diffy_experience:block/roulegg_dimension_portal_ns"
+    }
+  }
+}

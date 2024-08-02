@@ -1,0 +1,6 @@
+{
+  "parent": "the_diffy_experience:displaysettings/roulegg_shrine.item",
+  "textures": {
+    "particle": "the_diffy_experience:block/roulegg_block"
+  }
+}

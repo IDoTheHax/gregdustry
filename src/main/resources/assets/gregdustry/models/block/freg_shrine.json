@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_diffy_experience:block/freg_shrine",
+    "particle": "the_diffy_experience:block/freg_shrine"
+  },
+  "render_type": "solid"
+}

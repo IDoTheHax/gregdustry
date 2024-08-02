@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_diffy_experience:block/greg_glass",
+    "particle": "the_diffy_experience:block/greg_glass"
+  },
+  "render_type": "cutout"
+}

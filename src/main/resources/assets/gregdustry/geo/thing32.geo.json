@@ -1,0 +1,116 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Creature",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "Creature",
+					"pivot": [0, 32, -2],
+					"cubes": [
+						{"origin": [-4, 23, -8.25], "size": [8, 8, 8], "pivot": [0, 0, 3.25], "rotation": [10, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "FrontArms",
+					"parent": "Creature",
+					"pivot": [0, -5, -5]
+				},
+				{
+					"name": "RightArm",
+					"parent": "FrontArms",
+					"pivot": [0, -5, -5],
+					"cubes": [
+						{"origin": [-32.25, -11.25, 5.25], "size": [3, 17, 3], "pivot": [-0.75, -4.75, 4.75], "rotation": [-7.5, -20, 67.5], "uv": [48, 20]},
+						{"origin": [-23, -3.5, -11], "size": [3, 17, 3], "pivot": [-0.75, -4.75, 4.75], "rotation": [-12.5, 2.5, 12.5], "uv": [42, 0]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "FrontArms",
+					"pivot": [0, -5, -5],
+					"cubes": [
+						{"origin": [29.25, -11.25, 5.25], "size": [3, 17, 3], "pivot": [0.75, -4.75, 4.75], "rotation": [-7.5, 20, -67.5], "uv": [36, 32]},
+						{"origin": [20, -3.5, -11], "size": [3, 17, 3], "pivot": [0.75, -4.75, 4.75], "rotation": [-12.5, -2.5, -12.5], "uv": [24, 32]}
+					]
+				},
+				{
+					"name": "BackArms",
+					"parent": "Creature",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "RightArm2",
+					"parent": "BackArms",
+					"pivot": [-8, 0, 0],
+					"cubes": [
+						{"origin": [-11, 0.75, 28.25], "size": [3, 17, 3], "pivot": [21.5, 7.25, 27.75], "rotation": [22.5, -20, 17.5], "uv": [12, 32]},
+						{"origin": [-19.5, -0.25, 43], "size": [3, 12.75, 3], "pivot": [12, 6.25, 42.5], "rotation": [-172.5, -40, 0], "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "LeftArm2",
+					"parent": "BackArms",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [8, 0.75, 28.25], "size": [3, 17, 3], "pivot": [-20.5, 7.25, 27.75], "rotation": [22.5, 20, -17.5], "uv": [0, 32]},
+						{"origin": [16.5, -0.25, 43], "size": [3, 12.75, 3], "pivot": [-12, 6.25, 42.5], "rotation": [-172.5, 40, 0], "uv": [48, 40]}
+					]
+				},
+				{
+					"name": "MiddleArms",
+					"parent": "Creature",
+					"pivot": [0, 0, -10]
+				},
+				{
+					"name": "LeftArm3",
+					"parent": "MiddleArms",
+					"pivot": [0, 0, -10],
+					"cubes": [
+						{"origin": [6, -10.25, 4.75], "size": [3, 17, 3], "pivot": [-22.5, 9.25, 16.25], "rotation": [0, 0, -40], "uv": [0, 32]},
+						{"origin": [18.5, -16.25, 9.25], "size": [3, 12.75, 3], "pivot": [-10, -7.5, 8.75], "rotation": [-175, 0, -27.5], "uv": [48, 40]},
+						{"origin": [18.75, -12.25, 9.5], "size": [2.5, 12.75, 2.5], "pivot": [-10, -7.5, 8.75], "rotation": [-175, 0, -27.5], "uv": [48.5, 40.5]}
+					]
+				},
+				{
+					"name": "RightArm3",
+					"parent": "MiddleArms",
+					"pivot": [0, 0, -10],
+					"cubes": [
+						{"origin": [-9, -10.25, 4.75], "size": [3, 17, 3], "pivot": [22.5, 9.25, 16.25], "rotation": [0, 0, 40], "uv": [0, 32], "mirror": true},
+						{"origin": [-21.5, -16.25, 9.25], "size": [3, 12.75, 3], "pivot": [10, -7.5, 8.75], "rotation": [-175, 0, 27.5], "uv": [48, 40], "mirror": true},
+						{"origin": [-21.25, -12.25, 9.5], "size": [2.5, 12.75, 2.5], "pivot": [10, -7.5, 8.75], "rotation": [-175, 0, 27.5], "uv": [48.5, 40.5], "mirror": true}
+					]
+				},
+				{
+					"name": "Torso",
+					"parent": "Creature",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, -7.75, 24], "size": [7, 12, 4], "pivot": [0, 0, 0], "rotation": [92.5, 0, 0], "uv": [24, 16]},
+						{"origin": [-4, 15, 48.75], "size": [8, 12, 4], "pivot": [0.5, 0, 28.75], "rotation": [80, 0, 0], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "hitbox",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-15, 0, -9], "size": [30, 31, 30], "uv": [0, 67]}
+					]
+				}
+			]
+		}
+	]
+}
