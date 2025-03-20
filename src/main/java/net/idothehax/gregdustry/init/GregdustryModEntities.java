@@ -2,6 +2,7 @@ package net.idothehax.gregdustry.init;
 
 import net.idothehax.gregdustry.Gregdustry;
 import net.idothehax.gregdustry.entity.WegEntity;
+import net.idothehax.gregdustry.entity.BlegEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -19,6 +20,8 @@ import net.minecraftforge.registries.RegistryObject;
 public class GregdustryModEntities {
     public static final DeferredRegister<EntityType<?>> REGISTRY;
     public static final RegistryObject<EntityType<WegEntity>> WEG;
+    public static final RegistryObject<EntityType<BlegEntity>> BLEG;
+
 
     public GregdustryModEntities() {
 
@@ -34,17 +37,21 @@ public class GregdustryModEntities {
     public static void init(FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
             WegEntity.init();
-
+            BlegEntity.init();
         });
     }
 
     @SubscribeEvent
     public static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(WEG.get(), WegEntity.createAttributes().build());
+        event.put(BLEG.get(), BlegEntity.createAttributes().build());
+
     }
 
     static {
         REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, Gregdustry.MODID);
-        WEG = register("weg", EntityType.Builder.of(WegEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).canSpawnFarFromPlayer().sized(0.6F, 1.8F));
+        WEG = register("weg", EntityType.Builder.of(WegEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).canSpawnFarFromPlayer().sized(0.6F, 1.8F));
+        BLEG = register("bleg", EntityType.Builder.of(BlegEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).canSpawnFarFromPlayer().sized(1.2F, 3.6F));
+
     }
 }

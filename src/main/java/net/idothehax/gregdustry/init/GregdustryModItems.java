@@ -13,6 +13,8 @@ import net.minecraftforge.registries.RegistryObject;
 public class GregdustryModItems {
     public static final DeferredRegister<Item> REGISTRY;
     public static final RegistryObject<Item> WEG_SPAWN_EGG;
+    public static final RegistryObject<Item> BlEG_SPAWN_EGG;
+
 
     public GregdustryModItems() {
     }
@@ -27,6 +29,10 @@ public class GregdustryModItems {
         REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, Gregdustry.MODID);
         WEG_SPAWN_EGG = REGISTRY.register("weg_spawn_egg", () -> {
             return new ForgeSpawnEggItem(GregdustryModEntities.WEG, -1, -1, new Item.Properties());
+        });
+
+        BlEG_SPAWN_EGG = REGISTRY.register("bleg_spawn_egg", () -> {
+            return new ForgeSpawnEggItem(GregdustryModEntities.WEG, 9122611, 1381655, new Item.Properties());
         });
     }
 }
