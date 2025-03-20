@@ -26,7 +26,7 @@ public class GregdustryModItems {
     static {
         REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, Gregdustry.MODID);
         WEG_SPAWN_EGG = REGISTRY.register("weg_spawn_egg", () -> {
-            return new ForgeSpawnEggItem(GregdustryModEntities.WEG, -0xffffff, -0x7f7f7f, new Item.Properties());
+            return new ForgeSpawnEggItem(GregdustryModEntities.WEG, -1, -1, new Item.Properties());
         });
     }
 }

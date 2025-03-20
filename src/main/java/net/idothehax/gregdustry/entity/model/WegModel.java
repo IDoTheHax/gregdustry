@@ -17,6 +17,6 @@ public class WegModel extends GeoModel<WegEntity> {
     }
 
     public ResourceLocation getTextureResource(WegEntity entity) {
-        return new ResourceLocation("the_diffy_experience", "textures/entities/" + entity.getTexture() + ".png");
+        return new ResourceLocation("gregdustry", "textures/entities/" + entity.getTexture() + ".png");
     }
 }

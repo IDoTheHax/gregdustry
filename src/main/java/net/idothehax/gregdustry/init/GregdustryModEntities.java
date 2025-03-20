@@ -1,5 +1,6 @@
 package net.idothehax.gregdustry.init;
 
+import net.idothehax.gregdustry.Gregdustry;
 import net.idothehax.gregdustry.entity.WegEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
@@ -43,7 +44,7 @@ public class GregdustryModEntities {
     }
 
     static {
-        REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, "gregdustry");
+        REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, Gregdustry.MODID);
         WEG = register("weg", EntityType.Builder.of(WegEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).canSpawnFarFromPlayer().sized(0.6F, 1.8F));
     }
 }
